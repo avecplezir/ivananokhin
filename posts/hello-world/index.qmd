@@ -1,0 +1,20 @@
+---
+title: "Hello, world"
+description: "First post on the new Quarto site"
+date: 2025-10-04
+categories: [meta]
+---
+
+This is a starter blog post. Quarto supports math like $Q(s,a)$ and runnable code blocks.
+
+```{python}
+#| echo: true
+#| warning: false
+sum(i for i in range(5))
+```
+
+Add more posts by running:
+
+```
+quarto create post "my-next-post" --title "My next post"
+```

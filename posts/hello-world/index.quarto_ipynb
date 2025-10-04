@@ -1,0 +1,53 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: \"Hello, world\"\n",
+        "description: \"First post on the new Quarto site\"\n",
+        "date: 2025-10-04\n",
+        "categories: [meta]\n",
+        "---\n",
+        "\n",
+        "This is a starter blog post. Quarto supports math like $Q(s,a)$ and runnable code blocks."
+      ],
+      "id": "eace2166"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| echo: true\n",
+        "#| warning: false\n",
+        "sum(i for i in range(5))"
+      ],
+      "id": "eb9a9dc0",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "Add more posts by running:\n",
+        "\n",
+        "```\n",
+        "quarto create post \"my-next-post\" --title \"My next post\"\n",
+        "```"
+      ],
+      "id": "20dc7235"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "python3",
+      "language": "python",
+      "display_name": "Python 3 (ipykernel)",
+      "path": "/Users/ivananohin/anaconda3/share/jupyter/kernels/python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}

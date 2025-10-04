@@ -1,0 +1,43 @@
+project:
+  type: website
+
+website:
+  title: "Ivan Anokhin"
+  description: "PhD student at Mila. Streaming RL, asynchronous learning, long-term memory."
+  navbar:
+    left:
+      - text: About
+        href: index.qmd
+      - text: Publications
+        href: publications.qmd
+      - text: Blog
+        href: posts/
+    right:
+      - icon: github
+        href: https://github.com/ivan-anokhin
+      - icon: mortarboard
+        href: https://scholar.google.com/
+      - icon: mail
+        href: mailto:ivan@example.com
+  page-footer:
+    left: "© {year} Ivan Anokhin"
+    right: "Built with Quarto"
+
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: darkly
+    toc: true
+    smooth-scroll: true
+    code-fold: show
+    grid:
+      body-width: 900px
+      sidebar-width: 300px
+
+metadata:
+  image: images/me.jpg
+  lang: en
+
+execute:
+  freeze: auto

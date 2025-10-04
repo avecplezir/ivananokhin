@@ -1,0 +1,21 @@
+---
+title: "About"
+image: images/me.jpg
+---
+
+# Ivan Anokhin
+
+_PhD student at **Mila / Université de Montréal** working on streaming RL, asynchronous credit assignment, and long‑term memory._
+
+Welcome! I build reinforcement‑learning systems that learn while acting under tight compute and memory constraints. I'm especially interested in designs that keep perception, action, and adaptation proceeding together, and in mechanisms for compact, selective long‑term memory.
+
+- **Research:** streaming/online RL, asynchronous computation, credit assignment, long‑term memory
+- **Interests:** biologically inspired learning, LLM reasoning + RL, efficient on‑device learning
+
+**Links:** [Google Scholar](https://scholar.google.com/) · [GitHub](https://github.com/) · [Mila page](https://mila.quebec/en/)
+
+---
+
+## News
+- 2025-10 — Launched my website with Quarto 🎉
+- Add news items here as bullet points.

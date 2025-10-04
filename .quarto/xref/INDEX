@@ -1,0 +1,11 @@
+{
+  "posts/hello-world/index.qmd": {
+    "index.html": "277a8f29"
+  },
+  "index.qmd": {
+    "index.html": "7ffc9ef6"
+  },
+  "publications.qmd": {
+    "publications.html": "5f8a4d70"
+  }
+}

@@ -1,0 +1,14 @@
+---
+title: "Publications"
+bibliography: publications.bib
+csl: https://www.zotero.org/styles/ieee
+---
+
+Below is an automatically generated list from `publications.bib`. Maintain your publications in that single file.
+
+## Selected publications
+<!-- Optionally cite specific entries to feature them: e.g., @anokhin2024cet -->
+
+## All publications
+::: {#refs}
+:::

@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Below is an automatically generated list from publications.bib. Maintain your publications in that single file."
+  },
+  {
+    "objectID": "publications.html#selected-publications",
+    "href": "publications.html#selected-publications",
+    "title": "Publications",
+    "section": "Selected publications",
+    "text": "Selected publications"
+  },
+  {
+    "objectID": "publications.html#all-publications",
+    "href": "publications.html#all-publications",
+    "title": "Publications",
+    "section": "All publications",
+    "text": "All publications"
+  },
+  {
+    "objectID": "posts/hello-world/index.html",
+    "href": "posts/hello-world/index.html",
+    "title": "Hello, world",
+    "section": "",
+    "text": "This is a starter blog post. Quarto supports math like \\(Q(s,a)\\) and runnable code blocks.\n\n\nCode\nsum(i for i in range(5))\n\n\n10\n\n\nAdd more posts by running:\nquarto create post \"my-next-post\" --title \"My next post\""
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "About",
+    "section": "",
+    "text": "PhD student at Mila / Université de Montréal working on streaming RL, asynchronous credit assignment, and long‑term memory.\nWelcome! I build reinforcement‑learning systems that learn while acting under tight compute and memory constraints. I’m especially interested in designs that keep perception, action, and adaptation proceeding together, and in mechanisms for compact, selective long‑term memory.\n\nResearch: streaming/online RL, asynchronous computation, credit assignment, long‑term memory\nInterests: biologically inspired learning, LLM reasoning + RL, efficient on‑device learning\n\nLinks: Google Scholar · GitHub · Mila page\n\n\n\n\n2025-10 — Launched my website with Quarto 🎉\nAdd news items here as bullet points."
+  },
+  {
+    "objectID": "index.html#news",
+    "href": "index.html#news",
+    "title": "About",
+    "section": "",
+    "text": "2025-10 — Launched my website with Quarto 🎉\nAdd news items here as bullet points."
+  }
+]

@@ -3,7 +3,7 @@ project:
 
 website:
   title: "Ivan Anokhin"
-  description: "PhD student at Mila. Streaming RL, asynchronous learning, long-term memory."
+  description: "PhD student at Mila."
   navbar:
     left:
       - text: About
@@ -14,13 +14,13 @@ website:
         href: posts/
     right:
       - icon: github
-        href: https://github.com/ivan-anokhin
+        href: https://github.com/avecplezir
       - icon: mortarboard
-        href: https://scholar.google.com/
+        href: https://scholar.google.com/citations?user=CJ-86AYAAAAJ&hl=en&oi=ao
       - icon: mail
-        href: mailto:ivan@example.com
+        href: mailto:i.anokhin.mm@gmail.com
   page-footer:
-    left: "© {year} Ivan Anokhin"
+    left: "© {2025} Ivan Anokhin"
     right: "Built with Quarto"
 
 format:

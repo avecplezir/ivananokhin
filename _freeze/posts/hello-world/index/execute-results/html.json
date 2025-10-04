@@ -2,7 +2,7 @@
   "hash": "d34d33115f678f938c13f712fa8b4dc0",
   "result": {
     "engine": "jupyter",
-    "markdown": "---\ntitle: \"Hello, world\"\ndescription: \"First post on the new Quarto site\"\ndate: 2025-10-04\ncategories: [meta]\n---\n\nThis is a starter blog post. Quarto supports math like $Q(s,a)$ and runnable code blocks.\n\n::: {#d996d574 .cell execution_count=1}\n``` {.python .cell-code}\nsum(i for i in range(5))\n```\n\n::: {.cell-output .cell-output-display execution_count=1}\n```\n10\n```\n:::\n:::\n\n\nAdd more posts by running:\n\n```\nquarto create post \"my-next-post\" --title \"My next post\"\n```\n\n",
+    "markdown": "---\ntitle: \"Hello, world\"\ndescription: \"First post on the new Quarto site\"\ndate: 2025-10-04\ncategories: [meta]\n---\n\nThis is a starter blog post. Quarto supports math like $Q(s,a)$ and runnable code blocks.\n\n::: {#eb9a9dc0 .cell execution_count=1}\n``` {.python .cell-code}\nsum(i for i in range(5))\n```\n\n::: {.cell-output .cell-output-display execution_count=1}\n```\n10\n```\n:::\n:::\n\n\nAdd more posts by running:\n\n```\nquarto create post \"my-next-post\" --title \"My next post\"\n```\n\n",
     "supporting": [
       "index_files"
     ],

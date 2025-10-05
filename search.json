@@ -4,14 +4,14 @@
     "href": "publications.html",
     "title": "Publications",
     "section": "",
-    "text": "Below is an automatically generated list from publications.bib. Maintain your publications in that single file."
+    "text": "[1]\n[2]"
   },
   {
     "objectID": "publications.html#selected-publications",
     "href": "publications.html#selected-publications",
     "title": "Publications",
-    "section": "Selected publications",
-    "text": "Selected publications"
+    "section": "",
+    "text": "[1]\n[2]"
   },
   {
     "objectID": "publications.html#all-publications",
@@ -32,13 +32,13 @@
     "href": "index.html",
     "title": "About",
     "section": "",
-    "text": "PhD student at Mila / Université de Montréal working on streaming RL, asynchronous credit assignment, and long‑term memory.\nWelcome! I build reinforcement‑learning systems that learn while acting under tight compute and memory constraints. I’m especially interested in designs that keep perception, action, and adaptation proceeding together, and in mechanisms for compact, selective long‑term memory.\n\nResearch: streaming/online RL, asynchronous computation, credit assignment, long‑term memory\nInterests: biologically inspired learning, LLM reasoning + RL, efficient on‑device learning\n\nLinks: Google Scholar · GitHub · Mila page\n\n\n\n\n2025-10 — Launched my website with Quarto 🎉\nAdd news items here as bullet points."
+    "text": "PhD student at Mila / Université de Montréal.\nI’m a PhD student at Mila / Université de Montréal, broadly interested in scalable and generalizable reinforcement learning advised by Irina Rish. Before that, I was lucky to work with Victor Lempitsky at Samsung AI Center and Dmitry Yarotsky at Skoltech; I also worked at Yandex and earned a BSc from Saint Petersburg State University.\nLinks: Google Scholar · GitHub · Twitter/X · Linkedin\n\n\n\n\n2025-10 - Launched this website! 🎉\n2025-07 — Preprint on bio-plausible learning rule that handles delayed credit assignment is out! 🎉"
   },
   {
     "objectID": "index.html#news",
     "href": "index.html#news",
     "title": "About",
     "section": "",
-    "text": "2025-10 — Launched my website with Quarto 🎉\nAdd news items here as bullet points."
+    "text": "2025-10 - Launched this website! 🎉\n2025-07 — Preprint on bio-plausible learning rule that handles delayed credit assignment is out! 🎉"
   }
 ]

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Publications – Ivan Anokhin</title>
+<title>agents – Ivan Anokhin</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,27 +20,7 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-  margin-bottom: 0em;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -284,7 +264,7 @@ div.csl-indent {
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./publications.html" aria-current="page"> 
+    <a class="nav-link" href="./publications.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
@@ -325,110 +305,81 @@ div.csl-indent {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#selected-publications" id="toc-selected-publications" class="nav-link active" data-scroll-target="#selected-publications">Selected publications</a></li>
-  <li><a href="#all-publications" id="toc-all-publications" class="nav-link" data-scroll-target="#all-publications">All publications</a></li>
+  <li><a href="#repository-guidelines" id="toc-repository-guidelines" class="nav-link active" data-scroll-target="#repository-guidelines">Repository Guidelines</a>
+  <ul class="collapse">
+  <li><a href="#project-structure-organization" id="toc-project-structure-organization" class="nav-link" data-scroll-target="#project-structure-organization">Project Structure &amp; Organization</a></li>
+  <li><a href="#build-preview-publish" id="toc-build-preview-publish" class="nav-link" data-scroll-target="#build-preview-publish">Build, Preview, Publish</a></li>
+  <li><a href="#coding-style-naming" id="toc-coding-style-naming" class="nav-link" data-scroll-target="#coding-style-naming">Coding Style &amp; Naming</a></li>
+  <li><a href="#testing-validation" id="toc-testing-validation" class="nav-link" data-scroll-target="#testing-validation">Testing &amp; Validation</a></li>
+  <li><a href="#commit-pull-request-guidelines" id="toc-commit-pull-request-guidelines" class="nav-link" data-scroll-target="#commit-pull-request-guidelines">Commit &amp; Pull Request Guidelines</a></li>
+  <li><a href="#security-configuration-tips" id="toc-security-configuration-tips" class="nav-link" data-scroll-target="#security-configuration-tips">Security &amp; Configuration Tips</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Publications</h1>
-</div>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
 
 
-</header>
-
-
-<section id="selected-publications" class="level2">
-<h2 class="anchored" data-anchor-id="selected-publications">Selected publications</h2>
-<div class="pub-card" data-markdown="0">
-<img src="images/pubs/ralambomihanta2025learning2.png" alt="Cascading Eligibility Traces thumbnail" class="pub-thumb">
-<div class="pub-body" data-markdown="0">
-<div class="pub-title">
-<a href="https://arxiv.org/abs/2506.14598">Learning From the Past with Cascading Eligibility Traces</a>
-</div>
-<div class="pub-authors">
-Tokiniaina Raharison Ralambomihanta, Ivan Anokhin, Roman Pogodin, Samira Ebrahimi Kahou, Jonathan Cornford, Blake Aaron Richards
-</div>
-<div class="pub-meta">
-preprint, arxiv 2025
-</div>
-<div class="pub-meta">
-[<a href="https://arxiv.org/pdf/2506.14598">PDF</a>, <a href="https://github.com/avecplezir/CET">Code</a>]
-</div>
-<div class="pub-desc">
-We show how to handle delayed credit assignment in an online, bio-plausible fashion by employing SSMs to retain past activations. We demonstrate the applicability of our method on computer vision and RL tasks. The design is friendly to on-device learning and Streaming RL.
-</div>
-</div>
-</div>
-<div class="pub-card" data-markdown="0">
-<img src="images/pubs/anokhin2025handling.png" alt="Handling Delay in Real-Time RL thumbnail" class="pub-thumb">
-<div class="pub-body" data-markdown="0">
-<div class="pub-title">
-<a href="https://arxiv.org/abs/2503.23478">Handling Delay in Real-Time Reinforcement Learning</a>
-</div>
-<div class="pub-authors">
-Ivan Anokhin, Rishav Rishav, Matthew Riemer, Stephen Chung, Irina Rish, Samira Ebrahimi Kahou
-</div>
-<div class="pub-meta">
-ICLR 2025
-</div>
-<div class="pub-meta">
-[<a href="https://arxiv.org/pdf/2503.23478">PDF</a>, <a href="https://github.com/avecplezir/realtime-agent">Code</a>, <a href="https://mila.quebec/en/article/real-time-reinforcement-learning">Blog post</a>, <a href="images/pubs/realtime_poster.png">Poster</a>]
-</div>
-<div class="pub-desc">
-We address real-time RL by pipelining layer computations and handling observation delay. We show it leads to faster inference and competitive performance on MuJoCo and MinAtar. The design is also friendly to on-device inference.
-</div>
-</div>
-</div>
+<section id="repository-guidelines" class="level1">
+<h1>Repository Guidelines</h1>
+<section id="project-structure-organization" class="level2">
+<h2 class="anchored" data-anchor-id="project-structure-organization">Project Structure &amp; Organization</h2>
+<ul>
+<li>Source pages: <code>index.qmd</code> (home), <code>publications.qmd</code>, posts in <code>posts/&lt;slug&gt;/index.qmd</code>.</li>
+<li>Assets: <code>images/</code> for media; bibliographic data in <code>publications.bib</code>.</li>
+<li>Config: <code>_quarto.yml</code> controls site metadata, nav, and formats.</li>
+<li>Build output: <code>_site/</code> (published site). Build cache: <code>_freeze/</code>.</li>
+</ul>
 </section>
-<section id="all-publications" class="level2">
-<h2 class="anchored" data-anchor-id="all-publications">All publications</h2>
-<div id="refs" class="references csl-bib-body" data-entry-spacing="0" role="list">
-<div id="ref-ralambomihanta2025learning" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[1] </div><div class="csl-right-inline">T. R. Ralambomihanta, I. Anokhin, R. Pogodin, S. E. Kahou, J. Cornford, and B. A. Richards, <span>“Learning from the past with cascading eligibility traces,”</span> <em>arXiv preprint arXiv:2506.14598</em>, 2025.</div>
-</div>
-<div id="ref-chmuraaif" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[2] </div><div class="csl-right-inline">J. Chmura <em>et al.</em>, <span>“AIF-GEN: Open-source platform and synthetic dataset suite for reinforcement learning on large language models,”</span> in <em>Championing open-source DEvelopment in ML workshop@ ICML25</em>, </div>
-</div>
-<div id="ref-anokhin2025handling" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[3] </div><div class="csl-right-inline">I. Anokhin, R. Rishav, M. Riemer, S. Chung, I. Rish, and S. E. Kahou, <span>“Handling delay in real-time reinforcement learning,”</span> <em>arXiv preprint arXiv:2503.23478</em>, 2025.</div>
-</div>
-<div id="ref-anokhin2024handling" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[4] </div><div class="csl-right-inline">I. Anokhin, R. Rishav, S. Chung, I. Rish, and S. E. Kahou, <span>“Handling delay in reinforcement learning caused by parallel computations of neurons,”</span> in <em>ICML 2024 workshop: Aligning reinforcement learning experimentalists and theorists</em>, </div>
-</div>
-<div id="ref-chung2023thinker" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[5] </div><div class="csl-right-inline">S. Chung, I. Anokhin, and D. Krueger, <span>“Thinker: Learning to plan and act,”</span> <em>Advances in Neural Information Processing Systems</em>, vol. 36, pp. 22896–22933, 2023.</div>
-</div>
-<div id="ref-velikanov2022embedded" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[6] </div><div class="csl-right-inline">M. Velikanov <em>et al.</em>, <span>“Embedded ensembles: Infinite width limit and operating regimes,”</span> in <em>International conference on artificial intelligence and statistics</em>, PMLR, 2022, pp. 3138–3163.</div>
-</div>
-<div id="ref-anokhin2021image" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[7] </div><div class="csl-right-inline">I. Anokhin, K. Demochkin, T. Khakhulin, G. Sterkin, V. Lempitsky, and D. Korzhenkov, <span>“Image generators with conditionally-independent pixel synthesis,”</span> in <em>Proceedings of the IEEE/CVF conference on computer vision and pattern recognition</em>, 2021, pp. 14278–14287.</div>
-</div>
-<div id="ref-anokhin2020high" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[8] </div><div class="csl-right-inline">I. Anokhin <em>et al.</em>, <span>“High-resolution daytime translation without domain labels,”</span> in <em>Proceedings of the IEEE/CVF conference on computer vision and pattern recognition</em>, 2020, pp. 7488–7497.</div>
-</div>
-<div id="ref-anokhin2020low" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[9] </div><div class="csl-right-inline">I. Anokhin and D. Yarotsky, <span>“Low-loss connection of weight vectors: Distribution-based approaches,”</span> in <em>International conference on machine learning</em>, PMLR, 2020, pp. 335–344.</div>
-</div>
-</div>
+<section id="build-preview-publish" class="level2">
+<h2 class="anchored" data-anchor-id="build-preview-publish">Build, Preview, Publish</h2>
+<ul>
+<li><code>quarto preview</code>: Run a local server with live reload at a local port.</li>
+<li><code>quarto render</code>: Build the full site into <code>_site/</code>.</li>
+<li><code>quarto check</code>: Verify required tooling and reveal missing dependencies.</li>
+<li>Tip: Commit source (<code>*.qmd</code>, <code>images/</code>, <code>_quarto.yml</code>), not <code>_site/</code> unless your deploy strategy requires it.</li>
+</ul>
+</section>
+<section id="coding-style-naming" class="level2">
+<h2 class="anchored" data-anchor-id="coding-style-naming">Coding Style &amp; Naming</h2>
+<ul>
+<li>Content: Write in <code>.qmd</code> with YAML front matter (<code>title</code>, <code>date</code>, <code>categories</code>).</li>
+<li>Indentation: 2 spaces for YAML and nested Markdown lists/code.</li>
+<li>Slugs: Hyphenated lowercase (e.g., <code>posts/hello-world/index.qmd</code>).</li>
+<li>Media: Place under <code>images/</code>, use descriptive names, add alt text.</li>
+<li>Headings: Use sentence case; keep levels consistent (<code>#</code>, <code>##</code>, <code>###</code>).</li>
+</ul>
+</section>
+<section id="testing-validation" class="level2">
+<h2 class="anchored" data-anchor-id="testing-validation">Testing &amp; Validation</h2>
+<ul>
+<li>Build cleanly: <code>quarto render</code> should complete without errors/warnings.</li>
+<li>Link/content sanity: Use <code>quarto preview</code> to manually verify navigation, code blocks, and citations.</li>
+<li>Environment: Run <code>quarto check</code> after upgrades or on new machines.</li>
+</ul>
+</section>
+<section id="commit-pull-request-guidelines" class="level2">
+<h2 class="anchored" data-anchor-id="commit-pull-request-guidelines">Commit &amp; Pull Request Guidelines</h2>
+<ul>
+<li>Commits: Prefer Conventional Commits (e.g., <code>docs: add post on X</code>, <code>fix: correct broken link</code>).</li>
+<li>PRs: Include a concise description, screenshots for visual changes, and link related issues.</li>
+<li>Verification: Show that <code>quarto render</code> succeeds locally; note any config changes in <code>_quarto.yml</code>.</li>
+</ul>
+</section>
+<section id="security-configuration-tips" class="level2">
+<h2 class="anchored" data-anchor-id="security-configuration-tips">Security &amp; Configuration Tips</h2>
+<ul>
+<li>Do not commit secrets or API keys; this site should be static.</li>
+<li>Keep <code>_quarto.yml</code> minimal and documented; add comments near non-obvious options.</li>
+<li>Large assets: optimize images before adding to keep builds fast.</li>
+</ul>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

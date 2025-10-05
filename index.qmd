@@ -1,7 +1,8 @@
 ---
-title: "About"
 image: images/me.jpg
 ---
+
+![](images/me_c.jpg){width=200 .float-end .ms-3 .mb-2}
 
 # Ivan Anokhin
 
@@ -17,4 +18,5 @@ Before that, I was lucky to work with [Victor Lempitsky](https://scholar.google.
 
 ## News
 - 2025-10 - Launched this website! 🎉
-- 2025-07 — Preprint on bio-plausible learning rule that handles delayed credit assignment is out! 🎉
+- 2025-07 - Preprint on bio-plausible learning rule that handles delayed credit assignment is out! 🎉
+- 2025-07 - [Mila blog post](https://mila.quebec/en/article/real-time-reinforcement-learning) on real-time RL is out. 

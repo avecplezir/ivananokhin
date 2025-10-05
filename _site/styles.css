@@ -1,0 +1,54 @@
+/* Publications: Selected cards */
+.pub-card {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  border: 1px solid var(--bs-border-color, #e5e5e5);
+  border-radius: 10px;
+  padding: 10px 12px;
+  margin: 10px 0;
+  background: var(--bs-body-bg, #fff);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.03);
+}
+.pub-thumb {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 6px;
+  flex: 0 0 160px;
+}
+.pub-body { flex: 1 1 auto; min-width: 0; }
+.pub-title {
+  font-weight: 600;
+  margin-bottom: 4px;
+  display: inline-block;
+  text-decoration: none;
+}
+.pub-title:hover { text-decoration: underline; }
+.pub-authors {
+  color: var(--bs-secondary-color, #6c757d);
+  font-size: 0.95rem;
+}
+.pub-meta {
+  color: var(--bs-secondary-color, #6c757d);
+  font-style: italic;
+  margin-top: 2px;
+  font-size: 0.9rem;
+}
+.pub-desc {
+  margin-top: 6px;
+  color: var(--bs-secondary-color, #6c757d);
+}
+.pub-badges { margin-top: 6px; }
+.pub-badges .badge {
+  margin-right: 6px;
+  font-weight: 500;
+}
+
+@media (max-width: 520px) {
+  .pub-thumb { width: 110px; height: 110px; flex-basis: 110px; }
+  .pub-card { padding: 8px 10px; gap: 10px; }
+}
+
+/* Make the full refs compact */
+#refs .csl-entry { margin: 0.25rem 0; }

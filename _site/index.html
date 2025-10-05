@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>About – Ivan Anokhin</title>
+<title>Ivan Anokhin</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -75,6 +75,7 @@ ul.task-list li input[type="checkbox"] {
 <style>html{ scroll-behavior: smooth; }</style>
 
 
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
@@ -312,43 +313,25 @@ ul.task-list li input[type="checkbox"] {
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">About</h1>
-</div>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
 
 
-</header>
-
-
+<p><img src="images/me_c.jpg" class="float-end ms-3 mb-2 img-fluid" width="200"></p>
 <section id="ivan-anokhin" class="level1">
 <h1>Ivan Anokhin</h1>
-<p><em>PhD student at <strong>Mila / Université de Montréal</strong> working on streaming RL, asynchronous credit assignment, and long‑term memory.</em></p>
-<p>Welcome! I build reinforcement‑learning systems that learn while acting under tight compute and memory constraints. I’m especially interested in designs that keep perception, action, and adaptation proceeding together, and in mechanisms for compact, selective long‑term memory.</p>
-<ul>
-<li><strong>Research:</strong> streaming/online RL, asynchronous computation, credit assignment, long‑term memory</li>
-<li><strong>Interests:</strong> biologically inspired learning, LLM reasoning + RL, efficient on‑device learning</li>
-</ul>
-<p><strong>Links:</strong> <a href="https://scholar.google.com/">Google Scholar</a> · <a href="https://github.com/">GitHub</a> · <a href="https://mila.quebec/en/">Mila page</a></p>
+<p><em>PhD student at <strong>Mila / Université de Montréal</strong>.</em></p>
+<p>I’m a PhD student at Mila / Université de Montréal, broadly interested in scalable and generalizable reinforcement learning advised by <a href="https://sites.google.com/view/irinarish/">Irina Rish</a>. Before that, I was lucky to work with <a href="https://scholar.google.com/citations?user=gYYVokYAAAAJ&amp;hl=en">Victor Lempitsky</a> at Samsung AI Center and <a href="https://scholar.google.com/citations?user=wNSSr_gAAAAJ&amp;hl=en">Dmitry Yarotsky</a> at Skoltech; I also worked at Yandex and earned a BSc from Saint Petersburg State University.</p>
+<p><strong>Links:</strong> <a href="https://scholar.google.com/citations?user=CJ-86AYAAAAJ&amp;hl=en&amp;oi=ao">Google Scholar</a> · <a href="https://github.com/avecplezir">GitHub</a> · <a href="https://x.com/plaisir_avec">Twitter/X</a> · <a href="https://www.linkedin.com/in/ivan-anokhin-914384131/">Linkedin</a></p>
 <hr>
 <section id="news" class="level2">
 <h2 class="anchored" data-anchor-id="news">News</h2>
 <ul>
-<li>2025-10 — Launched my website with Quarto 🎉</li>
-<li>Add news items here as bullet points.</li>
+<li>2025-10 - Launched this website! 🎉</li>
+<li>2025-07 - Preprint on bio-plausible learning rule that handles delayed credit assignment is out! 🎉</li>
+<li>2025-07 - <a href="https://mila.quebec/en/article/real-time-reinforcement-learning">Mila blog post</a> on real-time RL is out.</li>
 </ul>
 
 
@@ -442,7 +425,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/avecplezir\.github\.io\/ivananokhin\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

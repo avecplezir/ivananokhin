@@ -4,21 +4,21 @@
     "href": "publications.html",
     "title": "Publications",
     "section": "",
-    "text": "Below is an automatically generated list from publications.bib. Maintain your publications in that single file."
+    "text": "Learning From the Past with Cascading Eligibility Traces\n\n\nTokiniaina Raharison Ralambomihanta, Ivan Anokhin, Roman Pogodin, Samira Ebrahimi Kahou, Jonathan Cornford, Blake Aaron Richards\n\n\npreprint, arxiv 2025\n\n\n[PDF, Code]\n\n\nWe show how to handle delayed credit assignment in an online, bio-plausible fashion by employing SSMs to retain past activations. We demonstrate the applicability of our method on computer vision and RL tasks. The design is friendly to on-device learning and Streaming RL.\n\n\n\n\n\n\n\nHandling Delay in Real-Time Reinforcement Learning\n\n\nIvan Anokhin, Rishav Rishav, Matthew Riemer, Stephen Chung, Irina Rish, Samira Ebrahimi Kahou\n\n\nICLR 2025\n\n\n[PDF, Code, Blog post, Poster]\n\n\nWe address real-time RL by pipelining layer computations and handling observation delay. We show it leads to faster inference and competitive performance on MuJoCo and MinAtar. The design is also friendly to on-device inference."
   },
   {
     "objectID": "publications.html#selected-publications",
     "href": "publications.html#selected-publications",
     "title": "Publications",
-    "section": "Selected publications",
-    "text": "Selected publications"
+    "section": "",
+    "text": "Learning From the Past with Cascading Eligibility Traces\n\n\nTokiniaina Raharison Ralambomihanta, Ivan Anokhin, Roman Pogodin, Samira Ebrahimi Kahou, Jonathan Cornford, Blake Aaron Richards\n\n\npreprint, arxiv 2025\n\n\n[PDF, Code]\n\n\nWe show how to handle delayed credit assignment in an online, bio-plausible fashion by employing SSMs to retain past activations. We demonstrate the applicability of our method on computer vision and RL tasks. The design is friendly to on-device learning and Streaming RL.\n\n\n\n\n\n\n\nHandling Delay in Real-Time Reinforcement Learning\n\n\nIvan Anokhin, Rishav Rishav, Matthew Riemer, Stephen Chung, Irina Rish, Samira Ebrahimi Kahou\n\n\nICLR 2025\n\n\n[PDF, Code, Blog post, Poster]\n\n\nWe address real-time RL by pipelining layer computations and handling observation delay. We show it leads to faster inference and competitive performance on MuJoCo and MinAtar. The design is also friendly to on-device inference."
   },
   {
     "objectID": "publications.html#all-publications",
     "href": "publications.html#all-publications",
     "title": "Publications",
     "section": "All publications",
-    "text": "All publications"
+    "text": "All publications\n\n\n[1] T. R. Ralambomihanta, I. Anokhin, R. Pogodin, S. E. Kahou, J. Cornford, and B. A. Richards, “Learning from the past with cascading eligibility traces,” arXiv preprint arXiv:2506.14598, 2025.\n\n\n[2] J. Chmura et al., “AIF-GEN: Open-source platform and synthetic dataset suite for reinforcement learning on large language models,” in Championing open-source DEvelopment in ML workshop@ ICML25, \n\n\n[3] I. Anokhin, R. Rishav, M. Riemer, S. Chung, I. Rish, and S. E. Kahou, “Handling delay in real-time reinforcement learning,” arXiv preprint arXiv:2503.23478, 2025.\n\n\n[4] I. Anokhin, R. Rishav, S. Chung, I. Rish, and S. E. Kahou, “Handling delay in reinforcement learning caused by parallel computations of neurons,” in ICML 2024 workshop: Aligning reinforcement learning experimentalists and theorists, \n\n\n[5] S. Chung, I. Anokhin, and D. Krueger, “Thinker: Learning to plan and act,” Advances in Neural Information Processing Systems, vol. 36, pp. 22896–22933, 2023.\n\n\n[6] M. Velikanov et al., “Embedded ensembles: Infinite width limit and operating regimes,” in International conference on artificial intelligence and statistics, PMLR, 2022, pp. 3138–3163.\n\n\n[7] I. Anokhin, K. Demochkin, T. Khakhulin, G. Sterkin, V. Lempitsky, and D. Korzhenkov, “Image generators with conditionally-independent pixel synthesis,” in Proceedings of the IEEE/CVF conference on computer vision and pattern recognition, 2021, pp. 14278–14287.\n\n\n[8] I. Anokhin et al., “High-resolution daytime translation without domain labels,” in Proceedings of the IEEE/CVF conference on computer vision and pattern recognition, 2020, pp. 7488–7497.\n\n\n[9] I. Anokhin and D. Yarotsky, “Low-loss connection of weight vectors: Distribution-based approaches,” in International conference on machine learning, PMLR, 2020, pp. 335–344."
   },
   {
     "objectID": "posts/hello-world/index.html",
@@ -32,13 +32,62 @@
     "href": "index.html",
     "title": "About",
     "section": "",
-    "text": "PhD student at Mila / Université de Montréal working on streaming RL, asynchronous credit assignment, and long‑term memory.\nWelcome! I build reinforcement‑learning systems that learn while acting under tight compute and memory constraints. I’m especially interested in designs that keep perception, action, and adaptation proceeding together, and in mechanisms for compact, selective long‑term memory.\n\nResearch: streaming/online RL, asynchronous computation, credit assignment, long‑term memory\nInterests: biologically inspired learning, LLM reasoning + RL, efficient on‑device learning\n\nLinks: Google Scholar · GitHub · Mila page\n\n\n\n\n2025-10 — Launched my website with Quarto 🎉\nAdd news items here as bullet points."
+    "text": "Ivan Anokhin"
   },
   {
     "objectID": "index.html#news",
     "href": "index.html#news",
-    "title": "About",
+    "title": "Ivan Anokhin",
+    "section": "News",
+    "text": "News\n\n2025-10 - Launched this website! 🎉\n2025-07 - Preprint on bio-plausible learning rule that handles delayed credit assignment is out! 🎉\n2025-07 - Mila blog post on real-time RL is out."
+  },
+  {
+    "objectID": "AGENTS.html",
+    "href": "AGENTS.html",
+    "title": "Repository Guidelines",
     "section": "",
-    "text": "2025-10 — Launched my website with Quarto 🎉\nAdd news items here as bullet points."
+    "text": "Source pages: index.qmd (home), publications.qmd, posts in posts/&lt;slug&gt;/index.qmd.\nAssets: images/ for media; bibliographic data in publications.bib.\nConfig: _quarto.yml controls site metadata, nav, and formats.\nBuild output: _site/ (published site). Build cache: _freeze/.\n\n\n\n\n\nquarto preview: Run a local server with live reload at a local port.\nquarto render: Build the full site into _site/.\nquarto check: Verify required tooling and reveal missing dependencies.\nTip: Commit source (*.qmd, images/, _quarto.yml), not _site/ unless your deploy strategy requires it.\n\n\n\n\n\nContent: Write in .qmd with YAML front matter (title, date, categories).\nIndentation: 2 spaces for YAML and nested Markdown lists/code.\nSlugs: Hyphenated lowercase (e.g., posts/hello-world/index.qmd).\nMedia: Place under images/, use descriptive names, add alt text.\nHeadings: Use sentence case; keep levels consistent (#, ##, ###).\n\n\n\n\n\nBuild cleanly: quarto render should complete without errors/warnings.\nLink/content sanity: Use quarto preview to manually verify navigation, code blocks, and citations.\nEnvironment: Run quarto check after upgrades or on new machines.\n\n\n\n\n\nCommits: Prefer Conventional Commits (e.g., docs: add post on X, fix: correct broken link).\nPRs: Include a concise description, screenshots for visual changes, and link related issues.\nVerification: Show that quarto render succeeds locally; note any config changes in _quarto.yml.\n\n\n\n\n\nDo not commit secrets or API keys; this site should be static.\nKeep _quarto.yml minimal and documented; add comments near non-obvious options.\nLarge assets: optimize images before adding to keep builds fast."
+  },
+  {
+    "objectID": "AGENTS.html#project-structure-organization",
+    "href": "AGENTS.html#project-structure-organization",
+    "title": "Repository Guidelines",
+    "section": "",
+    "text": "Source pages: index.qmd (home), publications.qmd, posts in posts/&lt;slug&gt;/index.qmd.\nAssets: images/ for media; bibliographic data in publications.bib.\nConfig: _quarto.yml controls site metadata, nav, and formats.\nBuild output: _site/ (published site). Build cache: _freeze/."
+  },
+  {
+    "objectID": "AGENTS.html#build-preview-publish",
+    "href": "AGENTS.html#build-preview-publish",
+    "title": "Repository Guidelines",
+    "section": "",
+    "text": "quarto preview: Run a local server with live reload at a local port.\nquarto render: Build the full site into _site/.\nquarto check: Verify required tooling and reveal missing dependencies.\nTip: Commit source (*.qmd, images/, _quarto.yml), not _site/ unless your deploy strategy requires it."
+  },
+  {
+    "objectID": "AGENTS.html#coding-style-naming",
+    "href": "AGENTS.html#coding-style-naming",
+    "title": "Repository Guidelines",
+    "section": "",
+    "text": "Content: Write in .qmd with YAML front matter (title, date, categories).\nIndentation: 2 spaces for YAML and nested Markdown lists/code.\nSlugs: Hyphenated lowercase (e.g., posts/hello-world/index.qmd).\nMedia: Place under images/, use descriptive names, add alt text.\nHeadings: Use sentence case; keep levels consistent (#, ##, ###)."
+  },
+  {
+    "objectID": "AGENTS.html#testing-validation",
+    "href": "AGENTS.html#testing-validation",
+    "title": "Repository Guidelines",
+    "section": "",
+    "text": "Build cleanly: quarto render should complete without errors/warnings.\nLink/content sanity: Use quarto preview to manually verify navigation, code blocks, and citations.\nEnvironment: Run quarto check after upgrades or on new machines."
+  },
+  {
+    "objectID": "AGENTS.html#commit-pull-request-guidelines",
+    "href": "AGENTS.html#commit-pull-request-guidelines",
+    "title": "Repository Guidelines",
+    "section": "",
+    "text": "Commits: Prefer Conventional Commits (e.g., docs: add post on X, fix: correct broken link).\nPRs: Include a concise description, screenshots for visual changes, and link related issues.\nVerification: Show that quarto render succeeds locally; note any config changes in _quarto.yml."
+  },
+  {
+    "objectID": "AGENTS.html#security-configuration-tips",
+    "href": "AGENTS.html#security-configuration-tips",
+    "title": "Repository Guidelines",
+    "section": "",
+    "text": "Do not commit secrets or API keys; this site should be static.\nKeep _quarto.yml minimal and documented; add comments near non-obvious options.\nLarge assets: optimize images before adding to keep builds fast."
   }
 ]

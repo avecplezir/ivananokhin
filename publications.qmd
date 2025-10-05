@@ -2,21 +2,35 @@
 title: "Publications"
 bibliography: publications.bib
 csl: https://www.zotero.org/styles/ieee
+nocite: |
+  @*          # still include everything in the "All" list below
 ---
 
 
 ## Selected publications
-@ralambomihanta2025learning
 
-@anokhin2025handling
+<div class="pub-card" markdown="0">
+  <img src="images/pubs/ralambomihanta2025learning2.png" alt="Cascading Eligibility Traces thumbnail" class="pub-thumb">
+  <div class="pub-body" markdown="0">
+  <div class="pub-title">[Learning From the Past with Cascading Eligibility Traces](https://arxiv.org/abs/2506.14598)</div>
+  <div class="pub-authors">Tokiniaina Raharison Ralambomihanta, Ivan Anokhin, Roman Pogodin, Samira Ebrahimi Kahou, Jonathan Cornford, Blake Aaron Richards</div>
+  <div class="pub-meta"> preprint, arxiv 2025 </div>
+  <div class="pub-meta">[[PDF](https://arxiv.org/pdf/2506.14598), [Code](https://github.com/avecplezir/CET)]</div>
+  <div class="pub-desc">We show how to handle delayed credit assignment in an online, bio-plausible fashion by employing SSMs to retain past activations. We demonstrate the applicability of our method on computer vision and RL tasks. The design is friendly to on-device learning and Streaming RL. </div>
+  </div>
+</div>
+
+<div class="pub-card" markdown="0">
+  <img src="images/pubs/anokhin2025handling.png" alt="Handling Delay in Real-Time RL thumbnail" class="pub-thumb">
+  <div class="pub-body" markdown="0">
+  <div class="pub-title">[Handling Delay in Real-Time Reinforcement Learning](https://arxiv.org/abs/2503.23478)</div>
+  <div class="pub-authors">Ivan Anokhin, Rishav Rishav, Matthew Riemer, Stephen Chung, Irina Rish, Samira Ebrahimi Kahou</div>
+  <div class="pub-meta"> ICLR 2025 </div>
+  <div class="pub-meta"> [[PDF](https://arxiv.org/pdf/2503.23478), [Code](https://github.com/avecplezir/realtime-agent), [Blog post](https://mila.quebec/en/article/real-time-reinforcement-learning), [Poster](images/pubs/realtime_poster.png)] </div>
+  <div class="pub-desc">We address real-time RL by pipelining layer computations and handling observation delay. We show it leads to faster inference and competitive performance on MuJoCo and MinAtar. The design is also friendly to on-device inference.</div>
+  </div>
+</div>
 
 ## All publications
-::: @ralambomihanta2025learning
-::: @chmuraaif
-::: @anokhin2025handling
-::: @anokhin2024handling
-::: @chung2023thinker
-::: @velikanov2022embedded
-::: @anokhin2021image
-::: @anokhin2020high
-::: @anokhin2020low
+::: {#refs}
+:::

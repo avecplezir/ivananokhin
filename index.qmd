@@ -5,17 +5,16 @@ image: images/me.jpg
 
 # Ivan Anokhin
 
-_PhD student at **Mila / Université de Montréal** working on streaming RL, asynchronous credit assignment, and long‑term memory._
+_PhD student at **Mila / Université de Montréal**._
 
-Welcome! I build reinforcement‑learning systems that learn while acting under tight compute and memory constraints. I'm especially interested in designs that keep perception, action, and adaptation proceeding together, and in mechanisms for compact, selective long‑term memory.
+I’m a PhD student at Mila / Université de Montréal, broadly interested in scalable and generalizable reinforcement learning advised by [Irina Rish](https://sites.google.com/view/irinarish/). 
+Before that, I was lucky to work with [Victor Lempitsky](https://scholar.google.com/citations?user=gYYVokYAAAAJ&hl=en) at Samsung AI Center and [Dmitry Yarotsky](https://scholar.google.com/citations?user=wNSSr_gAAAAJ&hl=en) at Skoltech; I also worked at Yandex and earned a BSc from Saint Petersburg State University.
 
-- **Research:** streaming/online RL, asynchronous computation, credit assignment, long‑term memory
-- **Interests:** biologically inspired learning, LLM reasoning + RL, efficient on‑device learning
 
-**Links:** [Google Scholar](https://scholar.google.com/) · [GitHub](https://github.com/) · [Mila page](https://mila.quebec/en/)
+**Links:** [Google Scholar](https://scholar.google.com/citations?user=CJ-86AYAAAAJ&hl=en&oi=ao) · [GitHub](https://github.com/avecplezir) · [Twitter/X](https://x.com/plaisir_avec)  · [Linkedin](https://www.linkedin.com/in/ivan-anokhin-914384131/)
 
 ---
 
 ## News
-- 2025-10 — Launched my website with Quarto 🎉
-- Add news items here as bullet points.
+- 2025-10 - Launched this website! 🎉
+- 2025-07 — Preprint on bio-plausible learning rule that handles delayed credit assignment is out! 🎉

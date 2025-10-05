@@ -4,11 +4,19 @@ bibliography: publications.bib
 csl: https://www.zotero.org/styles/ieee
 ---
 
-Below is an automatically generated list from `publications.bib`. Maintain your publications in that single file.
 
 ## Selected publications
-<!-- Optionally cite specific entries to feature them: e.g., @anokhin2024cet -->
+@ralambomihanta2025learning
+
+@anokhin2025handling
 
 ## All publications
-::: {#refs}
-:::
+::: @ralambomihanta2025learning
+::: @chmuraaif
+::: @anokhin2025handling
+::: @anokhin2024handling
+::: @chung2023thinker
+::: @velikanov2022embedded
+::: @anokhin2021image
+::: @anokhin2020high
+::: @anokhin2020low

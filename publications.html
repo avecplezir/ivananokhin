@@ -95,6 +95,7 @@ div.csl-indent {
 <style>html{ scroll-behavior: smooth; }</style>
 
 
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
@@ -354,10 +355,46 @@ div.csl-indent {
 
 <section id="selected-publications" class="level2">
 <h2 class="anchored" data-anchor-id="selected-publications">Selected publications</h2>
-<ul>
-<li><p><span class="citation" data-cites="ralambomihanta2025learning"><a href="#ref-ralambomihanta2025learning" role="doc-biblioref">[1]</a></span></p></li>
-<li><p><span class="citation" data-cites="anokhin2025handling"><a href="#ref-anokhin2025handling" role="doc-biblioref">[2]</a></span></p></li>
-</ul>
+<div class="pub-card" data-markdown="0">
+<img src="images/pubs/ralambomihanta2025learning2.png" alt="Cascading Eligibility Traces thumbnail" class="pub-thumb">
+<div class="pub-body" data-markdown="0">
+<div class="pub-title">
+<a href="https://arxiv.org/abs/2506.14598">Learning From the Past with Cascading Eligibility Traces</a>
+</div>
+<div class="pub-authors">
+Tokiniaina Raharison Ralambomihanta, Ivan Anokhin, Roman Pogodin, Samira Ebrahimi Kahou, Jonathan Cornford, Blake Aaron Richards
+</div>
+<div class="pub-meta">
+preprint, arxiv 2025
+</div>
+<div class="pub-meta">
+[<a href="https://arxiv.org/pdf/2506.14598">PDF</a>, <a href="https://github.com/avecplezir/CET">Code</a>]
+</div>
+<div class="pub-desc">
+We show how to handle delayed credit assignment in an online, bio-plausible fashion by employing SSMs to retain past activations. We demonstrate the applicability of our method on computer vision and RL tasks. The design is friendly to on-device learning and Streaming RL.
+</div>
+</div>
+</div>
+<div class="pub-card" data-markdown="0">
+<img src="images/pubs/anokhin2025handling.png" alt="Handling Delay in Real-Time RL thumbnail" class="pub-thumb">
+<div class="pub-body" data-markdown="0">
+<div class="pub-title">
+<a href="https://arxiv.org/abs/2503.23478">Handling Delay in Real-Time Reinforcement Learning</a>
+</div>
+<div class="pub-authors">
+Ivan Anokhin, Rishav Rishav, Matthew Riemer, Stephen Chung, Irina Rish, Samira Ebrahimi Kahou
+</div>
+<div class="pub-meta">
+ICLR 2025
+</div>
+<div class="pub-meta">
+[<a href="https://arxiv.org/pdf/2503.23478">PDF</a>, <a href="https://github.com/avecplezir/realtime-agent">Code</a>, <a href="https://mila.quebec/en/article/real-time-reinforcement-learning">Blog post</a>, <a href="images/pubs/realtime_poster.png">Poster</a>]
+</div>
+<div class="pub-desc">
+We address real-time RL by pipelining layer computations and handling observation delay. We show it leads to faster inference and competitive performance on MuJoCo and MinAtar. The design is also friendly to on-device inference.
+</div>
+</div>
+</div>
 </section>
 <section id="all-publications" class="level2">
 <h2 class="anchored" data-anchor-id="all-publications">All publications</h2>
@@ -365,11 +402,11 @@ div.csl-indent {
 <div id="ref-ralambomihanta2025learning" class="csl-entry" role="listitem">
 <div class="csl-left-margin">[1] </div><div class="csl-right-inline">T. R. Ralambomihanta, I. Anokhin, R. Pogodin, S. E. Kahou, J. Cornford, and B. A. Richards, <span>“Learning from the past with cascading eligibility traces,”</span> <em>arXiv preprint arXiv:2506.14598</em>, 2025.</div>
 </div>
-<div id="ref-anokhin2025handling" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[2] </div><div class="csl-right-inline">I. Anokhin, R. Rishav, M. Riemer, S. Chung, I. Rish, and S. E. Kahou, <span>“Handling delay in real-time reinforcement learning,”</span> <em>arXiv preprint arXiv:2503.23478</em>, 2025.</div>
-</div>
 <div id="ref-chmuraaif" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[3] </div><div class="csl-right-inline">J. Chmura <em>et al.</em>, <span>“AIF-GEN: Open-source platform and synthetic dataset suite for reinforcement learning on large language models,”</span> in <em>Championing open-source DEvelopment in ML workshop@ ICML25</em>, </div>
+<div class="csl-left-margin">[2] </div><div class="csl-right-inline">J. Chmura <em>et al.</em>, <span>“AIF-GEN: Open-source platform and synthetic dataset suite for reinforcement learning on large language models,”</span> in <em>Championing open-source DEvelopment in ML workshop@ ICML25</em>, </div>
+</div>
+<div id="ref-anokhin2025handling" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[3] </div><div class="csl-right-inline">I. Anokhin, R. Rishav, M. Riemer, S. Chung, I. Rish, and S. E. Kahou, <span>“Handling delay in real-time reinforcement learning,”</span> <em>arXiv preprint arXiv:2503.23478</em>, 2025.</div>
 </div>
 <div id="ref-anokhin2024handling" class="csl-entry" role="listitem">
 <div class="csl-left-margin">[4] </div><div class="csl-right-inline">I. Anokhin, R. Rishav, S. Chung, I. Rish, and S. E. Kahou, <span>“Handling delay in reinforcement learning caused by parallel computations of neurons,”</span> in <em>ICML 2024 workshop: Aligning reinforcement learning experimentalists and theorists</em>, </div>

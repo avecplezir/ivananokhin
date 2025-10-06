@@ -1,5 +1,5 @@
 ---
-title: "Publications"
+title: Publications
 bibliography: publications.bib
 csl: https://www.zotero.org/styles/ieee
 nocite: |

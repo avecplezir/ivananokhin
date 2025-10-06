@@ -1,47 +1,5 @@
 [
   {
-    "objectID": "publications.html",
-    "href": "publications.html",
-    "title": "Publications",
-    "section": "",
-    "text": "Learning From the Past with Cascading Eligibility Traces\n\n\nTokiniaina Raharison Ralambomihanta, Ivan Anokhin, Roman Pogodin, Samira Ebrahimi Kahou, Jonathan Cornford, Blake Aaron Richards\n\n\npreprint, arxiv 2025\n\n\n[PDF, Code]\n\n\nWe show how to handle delayed credit assignment in an online, bio-plausible fashion by employing SSMs to retain past activations. We demonstrate the applicability of our method on computer vision and RL tasks. The design is friendly to on-device learning and Streaming RL.\n\n\n\n\n\n\n\nHandling Delay in Real-Time Reinforcement Learning\n\n\nIvan Anokhin, Rishav Rishav, Matthew Riemer, Stephen Chung, Irina Rish, Samira Ebrahimi Kahou\n\n\nICLR 2025\n\n\n[PDF, Code, Blog post, Poster]\n\n\nWe address real-time RL by pipelining layer computations and handling observation delay. We show it leads to faster inference and competitive performance on MuJoCo and MinAtar. The design is also friendly to on-device inference."
-  },
-  {
-    "objectID": "publications.html#selected-publications",
-    "href": "publications.html#selected-publications",
-    "title": "Publications",
-    "section": "",
-    "text": "Learning From the Past with Cascading Eligibility Traces\n\n\nTokiniaina Raharison Ralambomihanta, Ivan Anokhin, Roman Pogodin, Samira Ebrahimi Kahou, Jonathan Cornford, Blake Aaron Richards\n\n\npreprint, arxiv 2025\n\n\n[PDF, Code]\n\n\nWe show how to handle delayed credit assignment in an online, bio-plausible fashion by employing SSMs to retain past activations. We demonstrate the applicability of our method on computer vision and RL tasks. The design is friendly to on-device learning and Streaming RL.\n\n\n\n\n\n\n\nHandling Delay in Real-Time Reinforcement Learning\n\n\nIvan Anokhin, Rishav Rishav, Matthew Riemer, Stephen Chung, Irina Rish, Samira Ebrahimi Kahou\n\n\nICLR 2025\n\n\n[PDF, Code, Blog post, Poster]\n\n\nWe address real-time RL by pipelining layer computations and handling observation delay. We show it leads to faster inference and competitive performance on MuJoCo and MinAtar. The design is also friendly to on-device inference."
-  },
-  {
-    "objectID": "publications.html#all-publications",
-    "href": "publications.html#all-publications",
-    "title": "Publications",
-    "section": "All publications",
-    "text": "All publications\n\n\n[1] T. R. Ralambomihanta, I. Anokhin, R. Pogodin, S. E. Kahou, J. Cornford, and B. A. Richards, “Learning from the past with cascading eligibility traces,” arXiv preprint arXiv:2506.14598, 2025.\n\n\n[2] J. Chmura et al., “AIF-GEN: Open-source platform and synthetic dataset suite for reinforcement learning on large language models,” in Championing open-source DEvelopment in ML workshop@ ICML25, \n\n\n[3] I. Anokhin, R. Rishav, M. Riemer, S. Chung, I. Rish, and S. E. Kahou, “Handling delay in real-time reinforcement learning,” arXiv preprint arXiv:2503.23478, 2025.\n\n\n[4] I. Anokhin, R. Rishav, S. Chung, I. Rish, and S. E. Kahou, “Handling delay in reinforcement learning caused by parallel computations of neurons,” in ICML 2024 workshop: Aligning reinforcement learning experimentalists and theorists, \n\n\n[5] S. Chung, I. Anokhin, and D. Krueger, “Thinker: Learning to plan and act,” Advances in Neural Information Processing Systems, vol. 36, pp. 22896–22933, 2023.\n\n\n[6] M. Velikanov et al., “Embedded ensembles: Infinite width limit and operating regimes,” in International conference on artificial intelligence and statistics, PMLR, 2022, pp. 3138–3163.\n\n\n[7] I. Anokhin, K. Demochkin, T. Khakhulin, G. Sterkin, V. Lempitsky, and D. Korzhenkov, “Image generators with conditionally-independent pixel synthesis,” in Proceedings of the IEEE/CVF conference on computer vision and pattern recognition, 2021, pp. 14278–14287.\n\n\n[8] I. Anokhin et al., “High-resolution daytime translation without domain labels,” in Proceedings of the IEEE/CVF conference on computer vision and pattern recognition, 2020, pp. 7488–7497.\n\n\n[9] I. Anokhin and D. Yarotsky, “Low-loss connection of weight vectors: Distribution-based approaches,” in International conference on machine learning, PMLR, 2020, pp. 335–344."
-  },
-  {
-    "objectID": "posts/hello-world/index.html",
-    "href": "posts/hello-world/index.html",
-    "title": "Hello, world",
-    "section": "",
-    "text": "This is a starter blog post. Quarto supports math like \\(Q(s,a)\\) and runnable code blocks.\n\n\nCode\nsum(i for i in range(5))\n\n\n10\n\n\nAdd more posts by running:\nquarto create post \"my-next-post\" --title \"My next post\""
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "About",
-    "section": "",
-    "text": "Ivan Anokhin"
-  },
-  {
-    "objectID": "index.html#news",
-    "href": "index.html#news",
-    "title": "Ivan Anokhin",
-    "section": "News",
-    "text": "News\n\n2025-10 - Launched this website! 🎉\n2025-07 - Preprint on bio-plausible learning rule that handles delayed credit assignment is out! 🎉\n2025-07 - Mila blog post on real-time RL is out."
-  },
-  {
     "objectID": "AGENTS.html",
     "href": "AGENTS.html",
     "title": "Repository Guidelines",
@@ -89,5 +47,40 @@
     "title": "Repository Guidelines",
     "section": "",
     "text": "Do not commit secrets or API keys; this site should be static.\nKeep _quarto.yml minimal and documented; add comments near non-obvious options.\nLarge assets: optimize images before adding to keep builds fast."
+  },
+  {
+    "objectID": "index.html#news",
+    "href": "index.html#news",
+    "title": "Ivan Anokhin",
+    "section": "News",
+    "text": "News\n\n2025-10 - Launched this website! 🎉\n2025-07 - Preprint on bio-plausible learning rule that handles delayed credit assignment is out! 🎉\n2025-07 - Mila blog post on real-time RL is out."
+  },
+  {
+    "objectID": "posts/hello-world/index.html",
+    "href": "posts/hello-world/index.html",
+    "title": "Hello, world",
+    "section": "",
+    "text": "This is a starter blog post. Quarto supports math like \\(Q(s,a)\\) and runnable code blocks.\n\n\nCode\nsum(i for i in range(5))\n\n\n10\n\n\nAdd more posts by running:\nquarto create post \"my-next-post\" --title \"My next post\""
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Learning From the Past with Cascading Eligibility Traces\n\n\nTokiniaina Raharison Ralambomihanta, Ivan Anokhin, Roman Pogodin, Samira Ebrahimi Kahou, Jonathan Cornford, Blake Aaron Richards\n\n\npreprint, arxiv 2025\n\n\n[PDF, Code]\n\n\nWe show how to handle delayed credit assignment in an online, bio-plausible fashion by employing SSMs to retain past activations. We demonstrate the applicability of our method on computer vision and RL tasks. The design is friendly to on-device learning and Streaming RL.\n\n\n\n\n\n\n\nHandling Delay in Real-Time Reinforcement Learning\n\n\nIvan Anokhin, Rishav Rishav, Matthew Riemer, Stephen Chung, Irina Rish, Samira Ebrahimi Kahou\n\n\nICLR 2025\n\n\n[PDF, Code, Blog post, Poster]\n\n\nWe address real-time RL by pipelining layer computations and handling observation delay. We show it leads to faster inference and competitive performance on MuJoCo and MinAtar. The design is also friendly to on-device inference."
+  },
+  {
+    "objectID": "publications.html#selected-publications",
+    "href": "publications.html#selected-publications",
+    "title": "Publications",
+    "section": "",
+    "text": "Learning From the Past with Cascading Eligibility Traces\n\n\nTokiniaina Raharison Ralambomihanta, Ivan Anokhin, Roman Pogodin, Samira Ebrahimi Kahou, Jonathan Cornford, Blake Aaron Richards\n\n\npreprint, arxiv 2025\n\n\n[PDF, Code]\n\n\nWe show how to handle delayed credit assignment in an online, bio-plausible fashion by employing SSMs to retain past activations. We demonstrate the applicability of our method on computer vision and RL tasks. The design is friendly to on-device learning and Streaming RL.\n\n\n\n\n\n\n\nHandling Delay in Real-Time Reinforcement Learning\n\n\nIvan Anokhin, Rishav Rishav, Matthew Riemer, Stephen Chung, Irina Rish, Samira Ebrahimi Kahou\n\n\nICLR 2025\n\n\n[PDF, Code, Blog post, Poster]\n\n\nWe address real-time RL by pipelining layer computations and handling observation delay. We show it leads to faster inference and competitive performance on MuJoCo and MinAtar. The design is also friendly to on-device inference."
+  },
+  {
+    "objectID": "publications.html#all-publications",
+    "href": "publications.html#all-publications",
+    "title": "Publications",
+    "section": "All publications",
+    "text": "All publications\n\n\n[1] T. R. Ralambomihanta, I. Anokhin, R. Pogodin, S. E. Kahou, J. Cornford, and B. A. Richards, “Learning from the past with cascading eligibility traces,” arXiv preprint arXiv:2506.14598, 2025.\n\n\n[2] J. Chmura et al., “AIF-GEN: Open-source platform and synthetic dataset suite for reinforcement learning on large language models,” in Championing open-source DEvelopment in ML workshop@ ICML25, \n\n\n[3] I. Anokhin, R. Rishav, M. Riemer, S. Chung, I. Rish, and S. E. Kahou, “Handling delay in real-time reinforcement learning,” arXiv preprint arXiv:2503.23478, 2025.\n\n\n[4] I. Anokhin, R. Rishav, S. Chung, I. Rish, and S. E. Kahou, “Handling delay in reinforcement learning caused by parallel computations of neurons,” in ICML 2024 workshop: Aligning reinforcement learning experimentalists and theorists, \n\n\n[5] S. Chung, I. Anokhin, and D. Krueger, “Thinker: Learning to plan and act,” Advances in Neural Information Processing Systems, vol. 36, pp. 22896–22933, 2023.\n\n\n[6] M. Velikanov et al., “Embedded ensembles: Infinite width limit and operating regimes,” in International conference on artificial intelligence and statistics, PMLR, 2022, pp. 3138–3163.\n\n\n[7] I. Anokhin, K. Demochkin, T. Khakhulin, G. Sterkin, V. Lempitsky, and D. Korzhenkov, “Image generators with conditionally-independent pixel synthesis,” in Proceedings of the IEEE/CVF conference on computer vision and pattern recognition, 2021, pp. 14278–14287.\n\n\n[8] I. Anokhin et al., “High-resolution daytime translation without domain labels,” in Proceedings of the IEEE/CVF conference on computer vision and pattern recognition, 2020, pp. 7488–7497.\n\n\n[9] I. Anokhin and D. Yarotsky, “Low-loss connection of weight vectors: Distribution-based approaches,” in International conference on machine learning, PMLR, 2020, pp. 335–344."
   }
 ]

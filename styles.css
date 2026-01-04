@@ -77,17 +77,6 @@ main h3 {
   line-height: 1.35 !important;
 }
 
-/* Add breathing room before horizontal rules in articles */
-.quarto-article hr,
-.page-content hr {
-  margin-top: 3rem !important;
-  margin-bottom: 1.75rem !important;
-}
-
-.thanks-spacer {
-  height: 3rem;
-}
-
 .post-date {
   font-size: 0.9rem;
   color: var(--bs-secondary-color, #6c757d);

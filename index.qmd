@@ -17,6 +17,8 @@ Before that, I was lucky to work with [Victor Lempitsky](https://scholar.google.
 ---
 
 ## News
+- 2025-01 - Published my first blog post: [Why Civilization Goes Virtual](posts/future-of-civilization-virtual-black-ball/).
+- 2025-12 - Passed Predoc-3 (mid-PhD committee exam). Topic: “Toward Asynchronous Computation for Streaming RL.”
 - 2025-10 - Launched this website! 🎉
 - 2025-07 - Preprint on bio-plausible learning rule that handles delayed credit assignment is out! 🎉
 - 2025-07 - [Mila blog post](https://mila.quebec/en/article/real-time-reinforcement-learning) on real-time RL is out. 

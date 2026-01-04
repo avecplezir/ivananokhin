@@ -52,3 +52,44 @@
 
 /* Make the full refs compact */
 #refs .csl-entry { margin: 0.25rem 0; }
+
+/* Tighter heading scale for posts */
+.quarto-article h2,
+.quarto-article h3,
+.page-content h2,
+.page-content h3,
+.quarto-article h2.anchored,
+.quarto-article h3.anchored,
+.page-content h2.anchored,
+.page-content h3.anchored {
+  font-size: 1.05rem !important;
+  font-weight: 700 !important;
+  line-height: 1.35 !important;
+}
+
+/* Fallback: force smaller subheads in case theme classes differ */
+.content h2,
+.content h3,
+main h2,
+main h3 {
+  font-size: 1.05rem !important;
+  font-weight: 700 !important;
+  line-height: 1.35 !important;
+}
+
+/* Add breathing room before horizontal rules in articles */
+.quarto-article hr,
+.page-content hr {
+  margin-top: 3rem !important;
+  margin-bottom: 1.75rem !important;
+}
+
+.thanks-spacer {
+  height: 3rem;
+}
+
+.post-date {
+  font-size: 0.9rem;
+  color: var(--bs-secondary-color, #6c757d);
+  margin: -0.4rem 0 1rem 0;
+}

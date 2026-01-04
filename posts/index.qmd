@@ -1,0 +1,12 @@
+---
+title: "Blog"
+listing:
+  contents: "*/index.qmd"
+  sort: "date desc"
+  type: default
+  categories: true
+  date-format: "MMMM D, YYYY"
+page-layout: article
+---
+
+Welcome to the blog. Now it is one post here so far :)

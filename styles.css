@@ -82,3 +82,13 @@ main h3 {
   color: var(--bs-secondary-color, #6c757d);
   margin: -0.4rem 0 1rem 0;
 }
+
+/* Blog listing: emphasize titles */
+.quarto-listing .listing-title,
+.quarto-listing .listing-title a,
+.quarto-post .listing-title,
+.quarto-post .listing-title a,
+.listing .listing-title,
+.listing .listing-title a {
+  font-weight: 800 !important;
+}

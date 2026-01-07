@@ -8,16 +8,17 @@ image: images/me.jpg
 
 _PhD student at **Mila / Université de Montréal**._
 
-I’m a PhD student at Mila / Université de Montréal, broadly interested in scalable and generalizable reinforcement learning advised by [Irina Rish](https://sites.google.com/view/irinarish/). 
+I am a PhD student at Mila / Université de Montréal, broadly interested in scalable and generalizable reinforcement learning advised by [Irina Rish](https://sites.google.com/view/irinarish/). 
 Before that, I was lucky to work with [Victor Lempitsky](https://scholar.google.com/citations?user=gYYVokYAAAAJ&hl=en) at Samsung AI Center and [Dmitry Yarotsky](https://scholar.google.com/citations?user=wNSSr_gAAAAJ&hl=en) at Skoltech; I also worked at Yandex and earned a BSc from Saint Petersburg State University.
 
+My current interests include asynchronous computation for neural networks, mid- and long-term memory mechanisms (with connections to continual learning), and RL-trained LLM agents.
 
 **Links:** [Email](mailto:i.anokhin.mm@gmail.com) · [CV](files/CV.pdf) · [Google Scholar](https://scholar.google.com/citations?user=CJ-86AYAAAAJ&hl=en&oi=ao) · [GitHub](https://github.com/avecplezir) · [Twitter/X](https://x.com/plaisir_avec) · [LinkedIn](https://www.linkedin.com/in/ivan-anokhin-914384131/) 
 
 ---
 
 ## News
-- 2025-01 - Published my first blog post: [Why Civilization Goes Virtual](posts/future-of-civilization-virtual-black-ball/).
+- 2026-01 - Published my first blog post: [Why Civilization Goes Virtual](posts/future-of-civilization-virtual-black-ball/).
 - 2025-12 - Passed Predoc-3 (mid-PhD committee exam). Topic: “Toward Asynchronous Computation for Streaming RL.”
 - 2025-10 - Launched this website! 🎉
 - 2025-07 - Preprint on bio-plausible learning rule that handles delayed credit assignment is out! 🎉

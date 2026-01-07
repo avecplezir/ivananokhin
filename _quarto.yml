@@ -20,8 +20,7 @@ website:
       - icon: mail
         href: mailto:i.anokhin.mm@gmail.com
   page-footer:
-    left: "© {2025} Ivan Anokhin"
-    right: "Built with Quarto"
+    left: "© {2026} Ivan Anokhin"
 
 format:
   html:

@@ -330,6 +330,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="news" class="level2">
 <h2 class="anchored" data-anchor-id="news">News</h2>
 <ul>
+<li>2026-01 - <a href="https://arxiv.org/abs/2506.14598">Learning From the Past with Cascading Eligibility Traces</a> accepted to ICLR 2026.</li>
 <li>2026-01 - Published my first blog post: <a href="posts/future-of-civilization-virtual-black-ball/">Why Civilization Goes Virtual</a>.</li>
 <li>2025-12 - Passed Predoc-3 (mid-PhD committee exam). Topic: “Toward Asynchronous Computation for Streaming RL.”</li>
 <li>2025-10 - Launched this website! 🎉</li>
@@ -428,7 +429,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/avecplezir\.github\.io\/ivananokhin\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

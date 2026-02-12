@@ -28,6 +28,7 @@ My current interests include asynchronous computation for neural networks, mid- 
 
 ---
 
+<!--
 ## Selected publications {#publications}
 
 <div class="pub-card" markdown="0">
@@ -52,5 +53,5 @@ My current interests include asynchronous computation for neural networks, mid- 
   </div>
 </div>
 
-<!-- Full publication list can be found on my [Google Scholar Page](https://scholar.google.com/citations?user=CJ-86AYAAAAJ&hl=en&oi=ao). -->
 A full publication list is available [here](publications.qmd).
+-->

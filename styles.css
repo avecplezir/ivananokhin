@@ -92,3 +92,12 @@ main h3 {
 .listing .listing-title a {
   font-weight: 800 !important;
 }
+
+/* Home page: make key section headers match the title scale */
+section#news > h2,
+section#publications > h2,
+section#blog > h2 {
+  font-size: 1.37rem !important;
+  font-weight: 700 !important;
+  line-height: 1.1 !important;
+}

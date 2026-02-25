@@ -8,10 +8,11 @@ image: images/me.jpg
 
 _PhD student at **Mila / Université de Montréal**._
 
-I am a PhD student at Mila / Université de Montréal, broadly interested in scalable and generalizable reinforcement learning advised by [Irina Rish](https://sites.google.com/view/irinarish/). 
-Before that, I was lucky to work with [Victor Lempitsky](https://scholar.google.com/citations?user=gYYVokYAAAAJ&hl=en) at Samsung AI Center and [Dmitry Yarotsky](https://scholar.google.com/citations?user=wNSSr_gAAAAJ&hl=en) at Skoltech; I also worked at Yandex and earned a BSc from Saint Petersburg State University.
+I am a PhD student at Mila / Université de Montréal, advised by [Irina Rish](https://sites.google.com/view/irinarish/). I am driven by a fundamental interest in the nature of intelligence. My broader research spans scalable reinforcement learning, memory mechanisms, continual learning, and (multi)-agency.
 
-My current interests include asynchronous computation for neural networks, mid- and long-term memory mechanisms (with connections to continual learning), and RL-trained LLM agents.
+My current core PhD research applies asynchronous computation to design new architectures and pipelines that break the sequential layer execution of standard neural networks. The goal is to build wall-clock efficient, low-latency 'anytime agents' that can think, act, and learn simultaneously without one blocking another.
+
+Before Mila, I was lucky to work with [Victor Lempitsky](https://scholar.google.com/citations?user=gYYVokYAAAAJ&hl=en) at Samsung AI Center and [Dmitry Yarotsky](https://scholar.google.com/citations?user=wNSSr_gAAAAJ&hl=en) at Skoltech. I also worked at Yandex and earned my BSc from Saint Petersburg State University.
 
 **Links:** [Email](mailto:i.anokhin.mm@gmail.com) · [CV](files/CV.pdf) · [Google Scholar](https://scholar.google.com/citations?user=CJ-86AYAAAAJ&hl=en&oi=ao) · [GitHub](https://github.com/avecplezir) · [Twitter/X](https://x.com/plaisir_avec) · [LinkedIn](https://www.linkedin.com/in/ivan-anokhin-914384131/) 
 

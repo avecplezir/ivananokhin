@@ -19,6 +19,7 @@ Before Mila, I was lucky to work with [Victor Lempitsky](https://scholar.google.
 ---
 
 ## News
+- 2026-03 - Will join Sakana AI as an intern for summer 2026.
 - 2026-02 - Supported by the Université de Montréal AI scholarship.
 - 2026-01 - [Learning From the Past with Cascading Eligibility Traces](https://arxiv.org/abs/2506.14598) was accepted to ICLR 2026.
 - 2026-01 - Published my first blog post: [Why Civilization Goes Virtual](posts/future-of-civilization-virtual-black-ball/).

@@ -8,9 +8,9 @@ image: images/me.jpg
 
 _PhD student at **Mila / Université de Montréal**._
 
-I am a PhD student at Mila / Université de Montréal, advised by [Irina Rish](https://sites.google.com/view/irinarish/). I am driven by a fundamental interest in the nature of intelligence. My broader research spans scalable reinforcement learning, memory mechanisms, continual learning, and (multi)-agency.
+I am a PhD student at Mila / Université de Montréal, advised by [Irina Rish](https://sites.google.com/view/irinarish/). I am driven by a fundamental interest in the nature of intelligence. My research interests include scalable reinforcement learning, memory mechanisms, continual learning, and (multi)-agency.
 
-My current core PhD research applies asynchronous computation to design new architectures and pipelines that break the sequential layer execution of standard neural networks. The goal is to build scalable, wall-clock efficient, low-latency agents that are closer to biological intelligence.
+My current PhD research applies asynchronous computation to design new architectures and methods that break the sequential layer execution of standard neural networks. The goal is to build scalable, low-latency agents that are closer to biological intelligence.
 
 Before Mila, I was lucky to work with [Victor Lempitsky](https://scholar.google.com/citations?user=gYYVokYAAAAJ&hl=en) at Samsung AI Center and [Dmitry Yarotsky](https://scholar.google.com/citations?user=wNSSr_gAAAAJ&hl=en) at Skoltech. I also worked at Yandex and earned my BSc from Saint Petersburg State University.
 
@@ -19,7 +19,7 @@ Before Mila, I was lucky to work with [Victor Lempitsky](https://scholar.google.
 ---
 
 ## News
-- 2026-03 - Will join Sakana AI as an intern for summer 2026.
+- 2026-03 - Will join [Sakana AI](https://sakana.ai/) as an intern for summer 2026.
 - 2026-02 - Supported by the Université de Montréal AI scholarship.
 - 2026-01 - [Learning From the Past with Cascading Eligibility Traces](https://arxiv.org/abs/2506.14598) was accepted to ICLR 2026.
 - 2026-01 - Published my first blog post: [Why Civilization Goes Virtual](posts/future-of-civilization-virtual-black-ball/).

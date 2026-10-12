@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.37">
+<meta name="generator" content="quarto-1.10.19">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -59,14 +62,14 @@ div.csl-indent {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-d0ae9245876894da5ac7e18953ecc5cc.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b626d73c4c936ccc3cb08be7d45d1df6.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-09293f0ea22f11eaadf97477780fc22c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-a49e22d97e12afd06ad74b30eec3c5c3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-09293f0ea22f11eaadf97477780fc22c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-afce6a554ecb81df35472f5d6d0182b9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-14d627e41886797562b859b72bd8953b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-afce6a554ecb81df35472f5d6d0182b9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -356,6 +359,46 @@ div.csl-indent {
 <section id="selected-publications" class="level2">
 <h2 class="anchored" data-anchor-id="selected-publications">Selected publications</h2>
 <div class="pub-card" data-markdown="0">
+<img src="images/pubs/anokhin2026fastweights.png" alt="Learned refinement of a selected key-value memory slot" class="pub-thumb">
+<div class="pub-body" data-markdown="0">
+<div class="pub-title">
+<a href="https://openreview.net/forum?id=Sl5mOMfm8R">Fast Weights Recurrent Transformer</a>
+</div>
+<div class="pub-authors">
+<strong>Ivan Anokhin</strong>, Daria Yasafova, Tianyu Zhao, Irina Rish, Sebastian Risi
+</div>
+<div class="pub-meta">
+NeurIPS 2026 Workshop: Long-Context Foundation Models
+</div>
+<div class="pub-meta">
+[<a href="files/fast-weights-recurrent-transformer.pdf">PDF</a>]
+</div>
+<div class="pub-desc">
+We introduce a recurrent Transformer with learned, sparse updates to a fixed-size key-value memory. Compared with FIFO-based recurrent Transformers, it improves FineWeb language modeling at small memory sizes, learns associative recall faster, and improves needle-in-a-haystack retrieval.
+</div>
+</div>
+</div>
+<div class="pub-card" data-markdown="0">
+<img src="images/pubs/anokhin2026temporal.png" alt="Parallel experts with recurrent state carried between steps" class="pub-thumb">
+<div class="pub-body" data-markdown="0">
+<div class="pub-title">
+<a href="https://arxiv.org/abs/2609.12531">Temporal Recurrence Favors Fewer Layers</a>
+</div>
+<div class="pub-authors">
+<strong>Ivan Anokhin</strong>, Johan Obando-Ceron, Irina Rish, Sebastian Risi
+</div>
+<div class="pub-meta">
+Preprint, 2026
+</div>
+<div class="pub-meta">
+[<a href="https://arxiv.org/pdf/2609.12531">PDF</a>, <a href="https://github.com/avecplezir/fewer-layers-with-rec">Code</a>]
+</div>
+<div class="pub-desc">
+We study how temporal recurrence changes the best allocation of compute along three axes: depth, width, and the number of experts. On Sokoban and FineWeb language modeling, the best observed recurrent models use substantially fewer layers with comparable or better performance under approximately the same per-step compute.
+</div>
+</div>
+</div>
+<div class="pub-card" data-markdown="0">
 <img src="images/pubs/ralambomihanta2025learning2.png" alt="Cascading Eligibility Traces thumbnail" class="pub-thumb">
 <div class="pub-body" data-markdown="0">
 <div class="pub-title">
@@ -399,32 +442,38 @@ We address real-time RL by pipelining layer computations and handling observatio
 <section id="all-publications" class="level2">
 <h2 class="anchored" data-anchor-id="all-publications">All publications</h2>
 <div id="refs" class="references csl-bib-body" data-entry-spacing="0" role="list">
+<div id="ref-anokhin2026fastweights" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[1] </div><div class="csl-right-inline">I. Anokhin, D. Yasafova, T. Zhao, I. Rish, and S. Risi, <span>“Fast weights recurrent transformer,”</span> in <em>NeurIPS 2026 workshop: Long-context foundation models</em>, 2026.</div>
+</div>
+<div id="ref-anokhin2026temporal" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[2] </div><div class="csl-right-inline">I. Anokhin, J. Obando-Ceron, I. Rish, and S. Risi, <span>“Temporal recurrence favors fewer layers,”</span> <em>arXiv preprint arXiv:2609.12531</em>, 2026.</div>
+</div>
 <div id="ref-ralambomihanta2025learning" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[1] </div><div class="csl-right-inline">T. R. Ralambomihanta, I. Anokhin, R. Pogodin, S. E. Kahou, J. Cornford, and B. A. Richards, <span>“Learning from the past with cascading eligibility traces,”</span> <em>arXiv preprint arXiv:2506.14598</em>, 2025.</div>
+<div class="csl-left-margin">[3] </div><div class="csl-right-inline">T. R. Ralambomihanta, I. Anokhin, R. Pogodin, S. E. Kahou, J. Cornford, and B. A. Richards, <span>“Learning from the past with cascading eligibility traces,”</span> <em>arXiv preprint arXiv:2506.14598</em>, 2025.</div>
 </div>
 <div id="ref-chmuraaif" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[2] </div><div class="csl-right-inline">J. Chmura <em>et al.</em>, <span>“AIF-GEN: Open-source platform and synthetic dataset suite for reinforcement learning on large language models,”</span> in <em>Championing open-source DEvelopment in ML workshop@ ICML25</em>, </div>
+<div class="csl-left-margin">[4] </div><div class="csl-right-inline">J. Chmura <em>et al.</em>, <span>“AIF-GEN: Open-source platform and synthetic dataset suite for reinforcement learning on large language models,”</span> in <em>Championing open-source DEvelopment in ML workshop@ ICML25</em>, </div>
 </div>
 <div id="ref-anokhin2025handling" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[3] </div><div class="csl-right-inline">I. Anokhin, R. Rishav, M. Riemer, S. Chung, I. Rish, and S. E. Kahou, <span>“Handling delay in real-time reinforcement learning,”</span> <em>arXiv preprint arXiv:2503.23478</em>, 2025.</div>
+<div class="csl-left-margin">[5] </div><div class="csl-right-inline">I. Anokhin, R. Rishav, M. Riemer, S. Chung, I. Rish, and S. E. Kahou, <span>“Handling delay in real-time reinforcement learning,”</span> <em>arXiv preprint arXiv:2503.23478</em>, 2025.</div>
 </div>
 <div id="ref-anokhin2024handling" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[4] </div><div class="csl-right-inline">I. Anokhin, R. Rishav, S. Chung, I. Rish, and S. E. Kahou, <span>“Handling delay in reinforcement learning caused by parallel computations of neurons,”</span> in <em>ICML 2024 workshop: Aligning reinforcement learning experimentalists and theorists</em>, </div>
+<div class="csl-left-margin">[6] </div><div class="csl-right-inline">I. Anokhin, R. Rishav, S. Chung, I. Rish, and S. E. Kahou, <span>“Handling delay in reinforcement learning caused by parallel computations of neurons,”</span> in <em>ICML 2024 workshop: Aligning reinforcement learning experimentalists and theorists</em>, </div>
 </div>
 <div id="ref-chung2023thinker" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[5] </div><div class="csl-right-inline">S. Chung, I. Anokhin, and D. Krueger, <span>“Thinker: Learning to plan and act,”</span> <em>Advances in Neural Information Processing Systems</em>, vol. 36, pp. 22896–22933, 2023.</div>
+<div class="csl-left-margin">[7] </div><div class="csl-right-inline">S. Chung, I. Anokhin, and D. Krueger, <span>“Thinker: Learning to plan and act,”</span> <em>Advances in Neural Information Processing Systems</em>, vol. 36, pp. 22896–22933, 2023.</div>
 </div>
 <div id="ref-velikanov2022embedded" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[6] </div><div class="csl-right-inline">M. Velikanov <em>et al.</em>, <span>“Embedded ensembles: Infinite width limit and operating regimes,”</span> in <em>International conference on artificial intelligence and statistics</em>, PMLR, 2022, pp. 3138–3163.</div>
+<div class="csl-left-margin">[8] </div><div class="csl-right-inline">M. Velikanov <em>et al.</em>, <span>“Embedded ensembles: Infinite width limit and operating regimes,”</span> in <em>International conference on artificial intelligence and statistics</em>, PMLR, 2022, pp. 3138–3163.</div>
 </div>
 <div id="ref-anokhin2021image" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[7] </div><div class="csl-right-inline">I. Anokhin, K. Demochkin, T. Khakhulin, G. Sterkin, V. Lempitsky, and D. Korzhenkov, <span>“Image generators with conditionally-independent pixel synthesis,”</span> in <em>Proceedings of the IEEE/CVF conference on computer vision and pattern recognition</em>, 2021, pp. 14278–14287.</div>
+<div class="csl-left-margin">[9] </div><div class="csl-right-inline">I. Anokhin, K. Demochkin, T. Khakhulin, G. Sterkin, V. Lempitsky, and D. Korzhenkov, <span>“Image generators with conditionally-independent pixel synthesis,”</span> in <em>Proceedings of the IEEE/CVF conference on computer vision and pattern recognition</em>, 2021, pp. 14278–14287.</div>
 </div>
 <div id="ref-anokhin2020high" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[8] </div><div class="csl-right-inline">I. Anokhin <em>et al.</em>, <span>“High-resolution daytime translation without domain labels,”</span> in <em>Proceedings of the IEEE/CVF conference on computer vision and pattern recognition</em>, 2020, pp. 7488–7497.</div>
+<div class="csl-left-margin">[10] </div><div class="csl-right-inline">I. Anokhin <em>et al.</em>, <span>“High-resolution daytime translation without domain labels,”</span> in <em>Proceedings of the IEEE/CVF conference on computer vision and pattern recognition</em>, 2020, pp. 7488–7497.</div>
 </div>
 <div id="ref-anokhin2020low" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[9] </div><div class="csl-right-inline">I. Anokhin and D. Yarotsky, <span>“Low-loss connection of weight vectors: Distribution-based approaches,”</span> in <em>International conference on machine learning</em>, PMLR, 2020, pp. 335–344.</div>
+<div class="csl-left-margin">[11] </div><div class="csl-right-inline">I. Anokhin and D. Yarotsky, <span>“Low-loss connection of weight vectors: Distribution-based approaches,”</span> in <em>International conference on machine learning</em>, PMLR, 2020, pp. 335–344.</div>
 </div>
 </div>
 
@@ -518,7 +567,7 @@ We address real-time RL by pipelining layer computations and handling observatio
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/avecplezir\.github\.io\/ivananokhin\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -849,7 +898,7 @@ We address real-time RL by pipelining layer computations and handling observatio
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© {2026} Ivan Anokhin</p>
+<p>© 2026 Ivan Anokhin</p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;

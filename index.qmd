@@ -19,6 +19,8 @@ Before Mila, I was lucky to work with [Victor Lempitsky](https://scholar.google.
 ---
 
 ## News
+- 2026-10 - [Fast Weights Recurrent Transformer](https://openreview.net/forum?id=Sl5mOMfm8R) was accepted to the NeurIPS 2026 Long-Context Foundation Models workshop.
+- 2026-09 - Preprint [Temporal Recurrence Favors Fewer Layers](https://arxiv.org/abs/2609.12531) is out! 🎉
 - 2026-03 - Will join [Sakana AI](https://sakana.ai/) as an intern for summer 2026.
 - 2026-02 - Supported by the Université de Montréal AI scholarship.
 - 2026-01 - [Learning From the Past with Cascading Eligibility Traces](https://arxiv.org/abs/2506.14598) was accepted to ICLR 2026.

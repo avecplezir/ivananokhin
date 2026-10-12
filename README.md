@@ -25,6 +25,10 @@
   ```
 - **Option B (GitHub Actions):** keep `.github/workflows/quarto-publish.yml` and enable Pages to serve from the `gh-pages` branch created by the workflow.
 
+The workflow builds from source on each push to `main`. Commit source pages, configuration, and assets; `_site/`, `.quarto/`, and `.DS_Store` files stay local and are ignored by Git. Only `.qmd` pages are rendered, so repository documentation is not published.
+
+The `website.site-url` setting in `_quarto.yml` controls the public base URL. Quarto uses it to generate `sitemap.xml` and `robots.txt` on every full build; update that setting if the site moves.
+
 ## Customize
 - Replace `images/me.jpg` with your photo (keep same name).
 - Edit `_quarto.yml` for navbar, theme, social links.

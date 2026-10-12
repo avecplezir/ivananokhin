@@ -1,9 +1,12 @@
 project:
   type: website
+  render:
+    - "**/*.qmd"
 
 website:
   title: "Ivan Anokhin"
   description: "PhD student at Mila."
+  site-url: "https://avecplezir.github.io/ivananokhin/"
   navbar:
     left:
       - text: About
@@ -20,7 +23,7 @@ website:
       - icon: mail
         href: mailto:i.anokhin.mm@gmail.com
   page-footer:
-    left: "© {2026} Ivan Anokhin"
+    left: "© 2026 Ivan Anokhin"
 
 format:
   html:

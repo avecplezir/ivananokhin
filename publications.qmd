@@ -10,6 +10,28 @@ nocite: |
 ## Selected publications
 
 <div class="pub-card" markdown="0">
+  <img src="images/pubs/anokhin2026fastweights.png" alt="Learned refinement of a selected key-value memory slot" class="pub-thumb">
+  <div class="pub-body" markdown="0">
+  <div class="pub-title">[Fast Weights Recurrent Transformer](https://openreview.net/forum?id=Sl5mOMfm8R)</div>
+  <div class="pub-authors">**Ivan Anokhin**, Daria Yasafova, Tianyu Zhao, Irina Rish, Sebastian Risi</div>
+  <div class="pub-meta"> NeurIPS 2026 Workshop: Long-Context Foundation Models </div>
+  <div class="pub-meta">[[PDF](files/fast-weights-recurrent-transformer.pdf)]</div>
+  <div class="pub-desc">We introduce a recurrent Transformer with learned, sparse updates to a fixed-size key-value memory. Compared with FIFO-based recurrent Transformers, it improves FineWeb language modeling at small memory sizes, learns associative recall faster, and improves needle-in-a-haystack retrieval.</div>
+  </div>
+</div>
+
+<div class="pub-card" markdown="0">
+  <img src="images/pubs/anokhin2026temporal.png" alt="Parallel experts with recurrent state carried between steps" class="pub-thumb">
+  <div class="pub-body" markdown="0">
+  <div class="pub-title">[Temporal Recurrence Favors Fewer Layers](https://arxiv.org/abs/2609.12531)</div>
+  <div class="pub-authors">**Ivan Anokhin**, Johan Obando-Ceron, Irina Rish, Sebastian Risi</div>
+  <div class="pub-meta"> Preprint, 2026 </div>
+  <div class="pub-meta">[[PDF](https://arxiv.org/pdf/2609.12531), [Code](https://github.com/avecplezir/fewer-layers-with-rec)]</div>
+  <div class="pub-desc">We study how temporal recurrence changes the best allocation of compute along three axes: depth, width, and the number of experts. On Sokoban and FineWeb language modeling, the best observed recurrent models use substantially fewer layers with comparable or better performance under approximately the same per-step compute.</div>
+  </div>
+</div>
+
+<div class="pub-card" markdown="0">
   <img src="images/pubs/ralambomihanta2025learning2.png" alt="Cascading Eligibility Traces thumbnail" class="pub-thumb">
   <div class="pub-body" markdown="0">
   <div class="pub-title">[Learning From the Past with Cascading Eligibility Traces](https://arxiv.org/abs/2506.14598)</div>
